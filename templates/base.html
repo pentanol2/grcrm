@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DJCRM</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="max-w-4xl mx-auto bg-gray-100">
+        {% include 'header.html' %}
+        {% block content %}
+        {% endblock content %}
+    </div>
+    {% include 'scripts.html' %}
+</body>
+</html>
