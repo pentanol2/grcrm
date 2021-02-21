@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\leads\templates\lead_detail.html">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\leads\views.py">
           <value>
             <Attribute>
